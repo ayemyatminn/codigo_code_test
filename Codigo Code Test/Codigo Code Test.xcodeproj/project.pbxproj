@@ -21,15 +21,22 @@
 		AD0F3A1828C37FC700CE8BF4 /* CreateAccountViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD0F3A1628C37FC700CE8BF4 /* CreateAccountViewController.xib */; };
 		AD0F3A1C28C38BE300CE8BF4 /* CreateAccountTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0F3A1A28C38BE300CE8BF4 /* CreateAccountTableViewCell.swift */; };
 		AD0F3A1D28C38BE300CE8BF4 /* CreateAccountTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD0F3A1B28C38BE300CE8BF4 /* CreateAccountTableViewCell.xib */; };
+		AD0F3A2228C3AB2F00CE8BF4 /* MovieListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0F3A2028C3AB2F00CE8BF4 /* MovieListTableViewController.swift */; };
+		AD0F3A2328C3AB2F00CE8BF4 /* MovieListTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD0F3A2128C3AB2F00CE8BF4 /* MovieListTableViewController.xib */; };
+		AD0F3A2628C3AB4800CE8BF4 /* MovieDetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0F3A2428C3AB4800CE8BF4 /* MovieDetailTableViewController.swift */; };
+		AD0F3A2728C3AB4800CE8BF4 /* MovieDetailTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD0F3A2528C3AB4800CE8BF4 /* MovieDetailTableViewController.xib */; };
+		AD0F3A2C28C3AC1100CE8BF4 /* UIImageView + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0F3A2B28C3AC1100CE8BF4 /* UIImageView + Extension.swift */; };
 		AD9B640B28C3235100C78482 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD9B640A28C3235100C78482 /* AppDelegate.swift */; };
 		AD9B640D28C3235100C78482 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD9B640C28C3235100C78482 /* SceneDelegate.swift */; };
 		AD9B640F28C3235100C78482 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD9B640E28C3235100C78482 /* ViewController.swift */; };
 		AD9B641228C3235100C78482 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD9B641028C3235100C78482 /* Main.storyboard */; };
 		AD9B641428C3235500C78482 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD9B641328C3235500C78482 /* Assets.xcassets */; };
 		AD9B641728C3235500C78482 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD9B641528C3235500C78482 /* LaunchScreen.storyboard */; };
+		D4D13B673274139A46CDD587 /* Pods_Codigo_Code_Test.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61E8871AAECC305109FD2495 /* Pods_Codigo_Code_Test.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		61E8871AAECC305109FD2495 /* Pods_Codigo_Code_Test.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Codigo_Code_Test.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD0F39F728C35DF600CE8BF4 /* Chivo-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Chivo-Bold.ttf"; sourceTree = "<group>"; };
 		AD0F39F828C35DF600CE8BF4 /* Chivo-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Chivo-Black.ttf"; sourceTree = "<group>"; };
 		AD0F39F928C35DF700CE8BF4 /* Chivo-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Chivo-BoldItalic.ttf"; sourceTree = "<group>"; };
@@ -44,6 +51,11 @@
 		AD0F3A1628C37FC700CE8BF4 /* CreateAccountViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CreateAccountViewController.xib; sourceTree = "<group>"; };
 		AD0F3A1A28C38BE300CE8BF4 /* CreateAccountTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountTableViewCell.swift; sourceTree = "<group>"; };
 		AD0F3A1B28C38BE300CE8BF4 /* CreateAccountTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CreateAccountTableViewCell.xib; sourceTree = "<group>"; };
+		AD0F3A2028C3AB2F00CE8BF4 /* MovieListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListTableViewController.swift; sourceTree = "<group>"; };
+		AD0F3A2128C3AB2F00CE8BF4 /* MovieListTableViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MovieListTableViewController.xib; sourceTree = "<group>"; };
+		AD0F3A2428C3AB4800CE8BF4 /* MovieDetailTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailTableViewController.swift; sourceTree = "<group>"; };
+		AD0F3A2528C3AB4800CE8BF4 /* MovieDetailTableViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MovieDetailTableViewController.xib; sourceTree = "<group>"; };
+		AD0F3A2B28C3AC1100CE8BF4 /* UIImageView + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView + Extension.swift"; sourceTree = "<group>"; };
 		AD9B640728C3235100C78482 /* Codigo Code Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Codigo Code Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD9B640A28C3235100C78482 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AD9B640C28C3235100C78482 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -52,6 +64,8 @@
 		AD9B641328C3235500C78482 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AD9B641628C3235500C78482 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AD9B641828C3235500C78482 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5C69BA968D1F90A9157364E /* Pods-Codigo Code Test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Codigo Code Test.release.xcconfig"; path = "Target Support Files/Pods-Codigo Code Test/Pods-Codigo Code Test.release.xcconfig"; sourceTree = "<group>"; };
+		BCAFE7559D5571033E68730F /* Pods-Codigo Code Test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Codigo Code Test.debug.xcconfig"; path = "Target Support Files/Pods-Codigo Code Test/Pods-Codigo Code Test.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,12 +73,31 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D4D13B673274139A46CDD587 /* Pods_Codigo_Code_Test.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1EE3C4E1FA019414D156C5A8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				61E8871AAECC305109FD2495 /* Pods_Codigo_Code_Test.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2FDC6EA34BBC5842D3D35895 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BCAFE7559D5571033E68730F /* Pods-Codigo Code Test.debug.xcconfig */,
+				B5C69BA968D1F90A9157364E /* Pods-Codigo Code Test.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		AD0F39F628C35DDE00CE8BF4 /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
@@ -102,6 +135,8 @@
 		AD0F3A0928C35F0D00CE8BF4 /* Code Management */ = {
 			isa = PBXGroup;
 			children = (
+				AD0F3A1F28C3AB0800CE8BF4 /* xib */,
+				AD0F3A1E28C3AB0100CE8BF4 /* swift */,
 			);
 			path = "Code Management";
 			sourceTree = "<group>";
@@ -140,11 +175,39 @@
 			path = TableViewCell;
 			sourceTree = "<group>";
 		};
+		AD0F3A1E28C3AB0100CE8BF4 /* swift */ = {
+			isa = PBXGroup;
+			children = (
+				AD0F3A2428C3AB4800CE8BF4 /* MovieDetailTableViewController.swift */,
+				AD0F3A2528C3AB4800CE8BF4 /* MovieDetailTableViewController.xib */,
+			);
+			path = swift;
+			sourceTree = "<group>";
+		};
+		AD0F3A1F28C3AB0800CE8BF4 /* xib */ = {
+			isa = PBXGroup;
+			children = (
+				AD0F3A2028C3AB2F00CE8BF4 /* MovieListTableViewController.swift */,
+				AD0F3A2128C3AB2F00CE8BF4 /* MovieListTableViewController.xib */,
+			);
+			path = xib;
+			sourceTree = "<group>";
+		};
+		AD0F3A2828C3ABED00CE8BF4 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				AD0F3A2B28C3AC1100CE8BF4 /* UIImageView + Extension.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
 		AD9B63FE28C3235100C78482 = {
 			isa = PBXGroup;
 			children = (
 				AD9B640928C3235100C78482 /* Codigo Code Test */,
 				AD9B640828C3235100C78482 /* Products */,
+				2FDC6EA34BBC5842D3D35895 /* Pods */,
+				1EE3C4E1FA019414D156C5A8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -159,6 +222,7 @@
 		AD9B640928C3235100C78482 /* Codigo Code Test */ = {
 			isa = PBXGroup;
 			children = (
+				AD0F3A2828C3ABED00CE8BF4 /* Utils */,
 				AD0F3A1928C3829F00CE8BF4 /* TableViewCell */,
 				AD0F3A0728C35EDE00CE8BF4 /* UI */,
 				AD0F39F628C35DDE00CE8BF4 /* Fonts */,
@@ -180,9 +244,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AD9B641B28C3235500C78482 /* Build configuration list for PBXNativeTarget "Codigo Code Test" */;
 			buildPhases = (
+				EBAE93BB1B84BBB7C2E83912 /* [CP] Check Pods Manifest.lock */,
 				AD9B640328C3235100C78482 /* Sources */,
 				AD9B640428C3235100C78482 /* Frameworks */,
 				AD9B640528C3235100C78482 /* Resources */,
+				2D37325594BE29CC2BF1485D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -232,6 +298,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AD0F3A0328C35DF700CE8BF4 /* Chivo-Italic.ttf in Resources */,
+				AD0F3A2728C3AB4800CE8BF4 /* MovieDetailTableViewController.xib in Resources */,
 				AD9B641728C3235500C78482 /* LaunchScreen.storyboard in Resources */,
 				AD0F3A0228C35DF700CE8BF4 /* Chivo-Light.ttf in Resources */,
 				AD0F3A1828C37FC700CE8BF4 /* CreateAccountViewController.xib in Resources */,
@@ -241,6 +308,7 @@
 				AD0F3A0028C35DF700CE8BF4 /* Chivo-Black.ttf in Resources */,
 				AD0F3A0528C35DF700CE8BF4 /* Chivo-LightItalic.ttf in Resources */,
 				AD0F39FF28C35DF700CE8BF4 /* Chivo-Bold.ttf in Resources */,
+				AD0F3A2328C3AB2F00CE8BF4 /* MovieListTableViewController.xib in Resources */,
 				AD9B641428C3235500C78482 /* Assets.xcassets in Resources */,
 				AD9B641228C3235100C78482 /* Main.storyboard in Resources */,
 				AD0F3A0428C35DF700CE8BF4 /* Chivo-Regular.ttf in Resources */,
@@ -250,16 +318,61 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2D37325594BE29CC2BF1485D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Codigo Code Test/Pods-Codigo Code Test-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Codigo Code Test/Pods-Codigo Code Test-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Codigo Code Test/Pods-Codigo Code Test-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EBAE93BB1B84BBB7C2E83912 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Codigo Code Test-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		AD9B640328C3235100C78482 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD0F3A2C28C3AC1100CE8BF4 /* UIImageView + Extension.swift in Sources */,
 				AD0F3A1728C37FC700CE8BF4 /* CreateAccountViewController.swift in Sources */,
+				AD0F3A2628C3AB4800CE8BF4 /* MovieDetailTableViewController.swift in Sources */,
 				AD9B640F28C3235100C78482 /* ViewController.swift in Sources */,
 				AD0F3A0D28C35FFD00CE8BF4 /* WelcomeViewController.swift in Sources */,
 				AD9B640B28C3235100C78482 /* AppDelegate.swift in Sources */,
 				AD0F3A1C28C38BE300CE8BF4 /* CreateAccountTableViewCell.swift in Sources */,
+				AD0F3A2228C3AB2F00CE8BF4 /* MovieListTableViewController.swift in Sources */,
 				AD9B640D28C3235100C78482 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -404,6 +517,7 @@
 		};
 		AD9B641C28C3235500C78482 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BCAFE7559D5571033E68730F /* Pods-Codigo Code Test.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -434,6 +548,7 @@
 		};
 		AD9B641D28C3235500C78482 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5C69BA968D1F90A9157364E /* Pods-Codigo Code Test.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
