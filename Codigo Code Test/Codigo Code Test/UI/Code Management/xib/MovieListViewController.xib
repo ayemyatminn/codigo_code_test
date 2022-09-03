@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MovieListViewController" customModule="Codigo_Code_Test" customModuleProvider="target">
+            <connections>
+                <outlet property="ivBack" destination="cio-k9-jqz" id="fCD-Ax-OXx"/>
+                <outlet property="movieListTableView" destination="BsM-EA-9wg" id="k5Q-yM-oyK"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="chevron.backward" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="cio-k9-jqz">
+                    <rect key="frame" x="12" y="58" width="24" height="20.5"/>
+                    <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="24" id="3au-kb-dSc"/>
+                        <constraint firstAttribute="width" constant="24" id="4K5-i6-WUo"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The Movie" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xca-2i-JpS">
+                    <rect key="frame" x="167" y="57.5" width="80" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="BsM-EA-9wg">
+                    <rect key="frame" x="0.0" y="88" width="414" height="774"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </tableView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="Xca-2i-JpS" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="8nn-eP-vP0"/>
+                <constraint firstItem="Xca-2i-JpS" firstAttribute="centerY" secondItem="cio-k9-jqz" secondAttribute="centerY" id="AgL-sS-Lov"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="BsM-EA-9wg" secondAttribute="trailing" id="JI2-IP-rR2"/>
+                <constraint firstItem="BsM-EA-9wg" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="Tmk-cb-xUh"/>
+                <constraint firstItem="cio-k9-jqz" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="12" id="ccp-2U-l6w"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="BsM-EA-9wg" secondAttribute="bottom" id="lii-op-vUb"/>
+                <constraint firstItem="BsM-EA-9wg" firstAttribute="top" secondItem="cio-k9-jqz" secondAttribute="bottom" constant="8" id="r1d-i5-QUY"/>
+                <constraint firstItem="cio-k9-jqz" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="12" id="rXT-dT-9k7"/>
+            </constraints>
+            <point key="canvasLocation" x="137.68115942028987" y="100.44642857142857"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="chevron.backward" catalog="system" width="96" height="128"/>
+    </resources>
+</document>

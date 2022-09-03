@@ -21,7 +21,9 @@ class ViewController: UIViewController {
     }
     
     @IBAction func onTapCodeManagement(_ sender: Any) {
-        
+        let vc = MovieListViewController.init()
+        self.modalPresentationStyle = .none
+        self.present(vc, animated: true, completion: nil)
     }
     
     @IBAction func onTapUIDesign(_ sender: Any) {

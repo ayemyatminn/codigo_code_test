@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Chivo-Bold.ttf">
+            <string>Chivo-Bold</string>
+        </array>
+        <array key="Chivo-Regular.ttf">
+            <string>Chivo-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="MovieListCollectionViewCell" customModule="Codigo_Code_Test" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="216" height="220"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="216" height="220"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Nwc-Qn-wpD">
+                        <rect key="frame" x="0.0" y="0.0" width="216" height="220"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img_welcome_background" translatesAutoresizingMaskIntoConstraints="NO" id="5vk-tr-f6U" customClass="RoundedUIImageView" customModule="Codigo_Code_Test" customModuleProvider="target">
+                                <rect key="frame" x="8" y="8" width="200" height="150"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="150" id="acP-3I-Vrp"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="8"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="0.0"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Forzen" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C2f-xK-CZ2">
+                                <rect key="frame" x="8" y="166" width="200" height="22"/>
+                                <fontDescription key="fontDescription" name="Chivo-Bold" family="Chivo" pointSize="18"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2022-09-03" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GpX-Vd-RCc">
+                                <rect key="frame" x="8" y="196" width="200" height="17"/>
+                                <fontDescription key="fontDescription" name="Chivo-Regular" family="Chivo" pointSize="14"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="C2f-xK-CZ2" firstAttribute="top" secondItem="5vk-tr-f6U" secondAttribute="bottom" constant="8" id="7C6-Fi-VFl"/>
+                            <constraint firstItem="5vk-tr-f6U" firstAttribute="top" secondItem="Nwc-Qn-wpD" secondAttribute="top" constant="8" id="8cd-IQ-GUh"/>
+                            <constraint firstItem="GpX-Vd-RCc" firstAttribute="trailing" secondItem="C2f-xK-CZ2" secondAttribute="trailing" id="8ja-2d-2xi"/>
+                            <constraint firstAttribute="bottom" secondItem="GpX-Vd-RCc" secondAttribute="bottom" constant="7" id="TGO-yS-vEC"/>
+                            <constraint firstItem="C2f-xK-CZ2" firstAttribute="leading" secondItem="5vk-tr-f6U" secondAttribute="leading" id="g3T-kE-gb6"/>
+                            <constraint firstItem="GpX-Vd-RCc" firstAttribute="top" secondItem="C2f-xK-CZ2" secondAttribute="bottom" constant="8" id="hnO-Si-NrD"/>
+                            <constraint firstItem="C2f-xK-CZ2" firstAttribute="trailing" secondItem="5vk-tr-f6U" secondAttribute="trailing" id="lJn-M9-v9a"/>
+                            <constraint firstItem="GpX-Vd-RCc" firstAttribute="leading" secondItem="C2f-xK-CZ2" secondAttribute="leading" id="lze-Vo-mp2"/>
+                            <constraint firstAttribute="trailing" secondItem="5vk-tr-f6U" secondAttribute="trailing" constant="8" id="sns-ML-a0Z"/>
+                            <constraint firstItem="5vk-tr-f6U" firstAttribute="leading" secondItem="Nwc-Qn-wpD" secondAttribute="leading" constant="8" id="vhR-dr-0E6"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="Nwc-Qn-wpD" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="2uy-ig-dNn"/>
+                <constraint firstAttribute="bottom" secondItem="Nwc-Qn-wpD" secondAttribute="bottom" id="ZFJ-7q-mui"/>
+                <constraint firstItem="Nwc-Qn-wpD" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="fzj-LR-941"/>
+                <constraint firstAttribute="trailing" secondItem="Nwc-Qn-wpD" secondAttribute="trailing" id="oWr-Ub-E1c"/>
+            </constraints>
+            <size key="customSize" width="216" height="220"/>
+            <point key="canvasLocation" x="256.52173913043481" y="157.36607142857142"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="img_welcome_background" width="414" height="736"/>
+    </resources>
+</document>

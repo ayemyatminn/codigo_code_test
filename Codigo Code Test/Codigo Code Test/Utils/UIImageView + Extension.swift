@@ -7,6 +7,8 @@
 
 import Foundation
 import UIKit
+import Kingfisher
+import Combine
 
 extension UIImageView {
     public func roundCorners(_ corners: UIRectCorner, radius: CGFloat) {
@@ -50,15 +52,15 @@ extension UIImageView {
 
 extension UIImageView {
 
-    var tapPublisher: AnyPublisher<Void, Never> {
-        let tapGestureRecognizer = UITapGestureRecognizer()
-        isUserInteractionEnabled = true
-        addGestureRecognizer(tapGestureRecognizer)
-        return tapGestureRecognizer
-            .tapPublisher
-            .compactMap{_ in Void()}
-            .eraseToAnyPublisher()
-    }
+//    var tapPublisher: AnyPublisher<Void, Never> {
+//        let tapGestureRecognizer = UITapGestureRecognizer()
+//        isUserInteractionEnabled = true
+//        addGestureRecognizer(tapGestureRecognizer)
+//        return tapGestureRecognizer
+//            .tapPublisher
+//            .compactMap{_ in Void()}
+//            .eraseToAnyPublisher()
+//    }
 }
 
 extension UIImageView {
