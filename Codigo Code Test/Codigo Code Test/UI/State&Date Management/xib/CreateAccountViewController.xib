@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Chivo-Bold.ttf">
+            <string>Chivo-Bold</string>
+        </array>
+        <array key="Chivo-Regular.ttf">
+            <string>Chivo-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CreateAccountViewController" customModule="Codigo_Code_Test" customModuleProvider="target">
+            <connections>
+                <outlet property="ivBack" destination="AQ2-0D-QuJ" id="qAA-8E-hf5"/>
+                <outlet property="tableView" destination="nYT-3D-Q0M" id="6nG-l6-lak"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4Ja-In-va7">
+                    <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                    <subviews>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="chevron.backward" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="AQ2-0D-QuJ">
+                            <rect key="frame" x="12" y="10" width="24" height="20.5"/>
+                            <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="24" id="MrU-9H-c0c"/>
+                                <constraint firstAttribute="width" constant="24" id="jft-ma-gR3"/>
+                            </constraints>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Almost there!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="As7-yO-kNT">
+                            <rect key="frame" x="12" y="64" width="130" height="24"/>
+                            <fontDescription key="fontDescription" name="Chivo-Bold" family="Chivo" pointSize="20"/>
+                            <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Complete the form below to create your Ready To Travel account." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zeA-xz-R0W">
+                            <rect key="frame" x="12" y="100" width="390" height="33.5"/>
+                            <fontDescription key="fontDescription" name="Chivo-Regular" family="Chivo" pointSize="14"/>
+                            <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="* Mandatory" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gVw-SL-Ezn">
+                            <rect key="frame" x="12" y="145.5" width="83" height="17"/>
+                            <fontDescription key="fontDescription" name="Chivo-Regular" family="Chivo" pointSize="14"/>
+                            <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <tableView clipsSubviews="YES" contentMode="scaleToFill" bounces="NO" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="nYT-3D-Q0M">
+                            <rect key="frame" x="0.0" y="182.5" width="414" height="547.5"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </tableView>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.90000000000000002" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img_guitar" translatesAutoresizingMaskIntoConstraints="NO" id="flZ-BN-BZ1">
+                            <rect key="frame" x="310" y="94" width="80" height="120"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="80" id="i5n-wS-IZw"/>
+                                <constraint firstAttribute="height" constant="120" id="olB-6M-slh"/>
+                            </constraints>
+                        </imageView>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="UrR-Az-Fsh">
+                            <rect key="frame" x="0.0" y="738" width="414" height="80"/>
+                            <subviews>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="K4G-yj-CSg">
+                                    <rect key="frame" x="24" y="12" width="366" height="56"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="56" id="Cqe-fK-uhL"/>
+                                    </constraints>
+                                    <state key="normal" title="Button"/>
+                                    <buttonConfiguration key="configuration" style="filled" title="Create my account now">
+                                        <fontDescription key="titleFontDescription" name="Chivo-Bold" family="Chivo" pointSize="18"/>
+                                    </buttonConfiguration>
+                                </button>
+                            </subviews>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="80" id="Eah-Jz-cpc"/>
+                                <constraint firstItem="K4G-yj-CSg" firstAttribute="top" secondItem="UrR-Az-Fsh" secondAttribute="top" constant="12" id="RBW-vt-95Z"/>
+                                <constraint firstAttribute="trailing" secondItem="K4G-yj-CSg" secondAttribute="trailing" constant="24" id="e1I-XW-aHO"/>
+                                <constraint firstItem="K4G-yj-CSg" firstAttribute="leading" secondItem="UrR-Az-Fsh" secondAttribute="leading" constant="24" id="s7X-rS-zFd"/>
+                                <constraint firstAttribute="bottom" secondItem="K4G-yj-CSg" secondAttribute="bottom" constant="12" id="w8p-da-jv5"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" red="0.96078431372549022" green="0.96078431372549022" blue="0.96078431372549022" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstItem="gVw-SL-Ezn" firstAttribute="leading" secondItem="4Ja-In-va7" secondAttribute="leading" constant="12" id="CMR-PH-ihJ"/>
+                        <constraint firstAttribute="trailing" secondItem="flZ-BN-BZ1" secondAttribute="trailing" constant="24" id="DQz-v2-y1S"/>
+                        <constraint firstItem="flZ-BN-BZ1" firstAttribute="centerY" secondItem="gVw-SL-Ezn" secondAttribute="centerY" id="LdI-bD-mb9"/>
+                        <constraint firstItem="zeA-xz-R0W" firstAttribute="top" secondItem="As7-yO-kNT" secondAttribute="bottom" constant="12" id="Pdw-VK-6tX"/>
+                        <constraint firstItem="UrR-Az-Fsh" firstAttribute="leading" secondItem="4Ja-In-va7" secondAttribute="leading" id="W8F-re-8IJ"/>
+                        <constraint firstItem="AQ2-0D-QuJ" firstAttribute="leading" secondItem="4Ja-In-va7" secondAttribute="leading" constant="12" id="aCI-jJ-EDw"/>
+                        <constraint firstItem="As7-yO-kNT" firstAttribute="top" secondItem="AQ2-0D-QuJ" secondAttribute="bottom" constant="32" id="djF-sv-Did"/>
+                        <constraint firstItem="As7-yO-kNT" firstAttribute="leading" secondItem="4Ja-In-va7" secondAttribute="leading" constant="12" id="gM8-7i-2Ef"/>
+                        <constraint firstAttribute="trailing" secondItem="UrR-Az-Fsh" secondAttribute="trailing" id="i0r-5A-5dQ"/>
+                        <constraint firstItem="UrR-Az-Fsh" firstAttribute="top" secondItem="nYT-3D-Q0M" secondAttribute="bottom" constant="8" id="iOS-Wd-RzC"/>
+                        <constraint firstAttribute="trailing" secondItem="nYT-3D-Q0M" secondAttribute="trailing" id="jXo-9R-Dqk"/>
+                        <constraint firstItem="zeA-xz-R0W" firstAttribute="leading" secondItem="4Ja-In-va7" secondAttribute="leading" constant="12" id="lh1-A7-0pY"/>
+                        <constraint firstItem="nYT-3D-Q0M" firstAttribute="leading" secondItem="4Ja-In-va7" secondAttribute="leading" id="mEg-4h-fO0"/>
+                        <constraint firstAttribute="bottom" secondItem="UrR-Az-Fsh" secondAttribute="bottom" id="r3b-TL-3CE"/>
+                        <constraint firstItem="gVw-SL-Ezn" firstAttribute="top" secondItem="zeA-xz-R0W" secondAttribute="bottom" constant="12" id="tpd-6T-ayT"/>
+                        <constraint firstItem="nYT-3D-Q0M" firstAttribute="top" secondItem="gVw-SL-Ezn" secondAttribute="bottom" constant="20" id="vNC-B6-0ur"/>
+                        <constraint firstItem="AQ2-0D-QuJ" firstAttribute="top" secondItem="4Ja-In-va7" secondAttribute="top" constant="8" id="xvg-SQ-ys7"/>
+                        <constraint firstAttribute="trailing" secondItem="zeA-xz-R0W" secondAttribute="trailing" constant="12" id="zdA-gy-UQz"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="4Ja-In-va7" secondAttribute="bottom" id="29E-3a-aiX"/>
+                <constraint firstItem="4Ja-In-va7" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="2wL-FY-nx6"/>
+                <constraint firstItem="4Ja-In-va7" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="ICm-YN-ma1"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="4Ja-In-va7" secondAttribute="trailing" id="LDT-3b-11Z"/>
+            </constraints>
+            <point key="canvasLocation" x="139" y="101"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="chevron.backward" catalog="system" width="96" height="128"/>
+        <image name="img_guitar" width="133" height="192"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

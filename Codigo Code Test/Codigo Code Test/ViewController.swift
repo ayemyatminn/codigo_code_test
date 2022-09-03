@@ -11,9 +11,21 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
     }
 
-
+    @IBAction func onTapStateDataManagement(_ sender: Any) {
+        let vc = WelcomeViewController.init()
+        self.modalPresentationStyle = .none
+        self.present(vc, animated: true, completion: nil)
+    }
+    
+    @IBAction func onTapCodeManagement(_ sender: Any) {
+        
+    }
+    
+    @IBAction func onTapUIDesign(_ sender: Any) {
+        
+    }
 }
 

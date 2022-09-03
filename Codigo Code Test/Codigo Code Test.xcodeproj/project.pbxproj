@@ -7,6 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AD0F39FF28C35DF700CE8BF4 /* Chivo-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AD0F39F728C35DF600CE8BF4 /* Chivo-Bold.ttf */; };
+		AD0F3A0028C35DF700CE8BF4 /* Chivo-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AD0F39F828C35DF600CE8BF4 /* Chivo-Black.ttf */; };
+		AD0F3A0128C35DF700CE8BF4 /* Chivo-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AD0F39F928C35DF700CE8BF4 /* Chivo-BoldItalic.ttf */; };
+		AD0F3A0228C35DF700CE8BF4 /* Chivo-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AD0F39FA28C35DF700CE8BF4 /* Chivo-Light.ttf */; };
+		AD0F3A0328C35DF700CE8BF4 /* Chivo-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AD0F39FB28C35DF700CE8BF4 /* Chivo-Italic.ttf */; };
+		AD0F3A0428C35DF700CE8BF4 /* Chivo-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AD0F39FC28C35DF700CE8BF4 /* Chivo-Regular.ttf */; };
+		AD0F3A0528C35DF700CE8BF4 /* Chivo-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AD0F39FD28C35DF700CE8BF4 /* Chivo-LightItalic.ttf */; };
+		AD0F3A0628C35DF700CE8BF4 /* Chivo-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AD0F39FE28C35DF700CE8BF4 /* Chivo-BlackItalic.ttf */; };
+		AD0F3A0D28C35FFD00CE8BF4 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0F3A0B28C35FFD00CE8BF4 /* WelcomeViewController.swift */; };
+		AD0F3A0E28C35FFD00CE8BF4 /* WelcomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD0F3A0C28C35FFD00CE8BF4 /* WelcomeViewController.xib */; };
+		AD0F3A1728C37FC700CE8BF4 /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0F3A1528C37FC700CE8BF4 /* CreateAccountViewController.swift */; };
+		AD0F3A1828C37FC700CE8BF4 /* CreateAccountViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD0F3A1628C37FC700CE8BF4 /* CreateAccountViewController.xib */; };
+		AD0F3A1C28C38BE300CE8BF4 /* CreateAccountTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0F3A1A28C38BE300CE8BF4 /* CreateAccountTableViewCell.swift */; };
+		AD0F3A1D28C38BE300CE8BF4 /* CreateAccountTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD0F3A1B28C38BE300CE8BF4 /* CreateAccountTableViewCell.xib */; };
 		AD9B640B28C3235100C78482 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD9B640A28C3235100C78482 /* AppDelegate.swift */; };
 		AD9B640D28C3235100C78482 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD9B640C28C3235100C78482 /* SceneDelegate.swift */; };
 		AD9B640F28C3235100C78482 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD9B640E28C3235100C78482 /* ViewController.swift */; };
@@ -16,6 +30,20 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AD0F39F728C35DF600CE8BF4 /* Chivo-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Chivo-Bold.ttf"; sourceTree = "<group>"; };
+		AD0F39F828C35DF600CE8BF4 /* Chivo-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Chivo-Black.ttf"; sourceTree = "<group>"; };
+		AD0F39F928C35DF700CE8BF4 /* Chivo-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Chivo-BoldItalic.ttf"; sourceTree = "<group>"; };
+		AD0F39FA28C35DF700CE8BF4 /* Chivo-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Chivo-Light.ttf"; sourceTree = "<group>"; };
+		AD0F39FB28C35DF700CE8BF4 /* Chivo-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Chivo-Italic.ttf"; sourceTree = "<group>"; };
+		AD0F39FC28C35DF700CE8BF4 /* Chivo-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Chivo-Regular.ttf"; sourceTree = "<group>"; };
+		AD0F39FD28C35DF700CE8BF4 /* Chivo-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Chivo-LightItalic.ttf"; sourceTree = "<group>"; };
+		AD0F39FE28C35DF700CE8BF4 /* Chivo-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Chivo-BlackItalic.ttf"; sourceTree = "<group>"; };
+		AD0F3A0B28C35FFD00CE8BF4 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		AD0F3A0C28C35FFD00CE8BF4 /* WelcomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WelcomeViewController.xib; sourceTree = "<group>"; };
+		AD0F3A1528C37FC700CE8BF4 /* CreateAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
+		AD0F3A1628C37FC700CE8BF4 /* CreateAccountViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CreateAccountViewController.xib; sourceTree = "<group>"; };
+		AD0F3A1A28C38BE300CE8BF4 /* CreateAccountTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountTableViewCell.swift; sourceTree = "<group>"; };
+		AD0F3A1B28C38BE300CE8BF4 /* CreateAccountTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CreateAccountTableViewCell.xib; sourceTree = "<group>"; };
 		AD9B640728C3235100C78482 /* Codigo Code Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Codigo Code Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD9B640A28C3235100C78482 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AD9B640C28C3235100C78482 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +65,81 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AD0F39F628C35DDE00CE8BF4 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				AD0F39F828C35DF600CE8BF4 /* Chivo-Black.ttf */,
+				AD0F39FE28C35DF700CE8BF4 /* Chivo-BlackItalic.ttf */,
+				AD0F39F728C35DF600CE8BF4 /* Chivo-Bold.ttf */,
+				AD0F39F928C35DF700CE8BF4 /* Chivo-BoldItalic.ttf */,
+				AD0F39FB28C35DF700CE8BF4 /* Chivo-Italic.ttf */,
+				AD0F39FA28C35DF700CE8BF4 /* Chivo-Light.ttf */,
+				AD0F39FD28C35DF700CE8BF4 /* Chivo-LightItalic.ttf */,
+				AD0F39FC28C35DF700CE8BF4 /* Chivo-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		AD0F3A0728C35EDE00CE8BF4 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				AD0F3A0828C35EE600CE8BF4 /* State&Date Management */,
+				AD0F3A0928C35F0D00CE8BF4 /* Code Management */,
+				AD0F3A0A28C35F1F00CE8BF4 /* UI Design */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		AD0F3A0828C35EE600CE8BF4 /* State&Date Management */ = {
+			isa = PBXGroup;
+			children = (
+				AD0F3A1428C3609B00CE8BF4 /* swift */,
+				AD0F3A1328C3609400CE8BF4 /* xib */,
+			);
+			path = "State&Date Management";
+			sourceTree = "<group>";
+		};
+		AD0F3A0928C35F0D00CE8BF4 /* Code Management */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Code Management";
+			sourceTree = "<group>";
+		};
+		AD0F3A0A28C35F1F00CE8BF4 /* UI Design */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "UI Design";
+			sourceTree = "<group>";
+		};
+		AD0F3A1328C3609400CE8BF4 /* xib */ = {
+			isa = PBXGroup;
+			children = (
+				AD0F3A0C28C35FFD00CE8BF4 /* WelcomeViewController.xib */,
+				AD0F3A1628C37FC700CE8BF4 /* CreateAccountViewController.xib */,
+			);
+			path = xib;
+			sourceTree = "<group>";
+		};
+		AD0F3A1428C3609B00CE8BF4 /* swift */ = {
+			isa = PBXGroup;
+			children = (
+				AD0F3A0B28C35FFD00CE8BF4 /* WelcomeViewController.swift */,
+				AD0F3A1528C37FC700CE8BF4 /* CreateAccountViewController.swift */,
+			);
+			path = swift;
+			sourceTree = "<group>";
+		};
+		AD0F3A1928C3829F00CE8BF4 /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				AD0F3A1A28C38BE300CE8BF4 /* CreateAccountTableViewCell.swift */,
+				AD0F3A1B28C38BE300CE8BF4 /* CreateAccountTableViewCell.xib */,
+			);
+			path = TableViewCell;
+			sourceTree = "<group>";
+		};
 		AD9B63FE28C3235100C78482 = {
 			isa = PBXGroup;
 			children = (
@@ -56,6 +159,9 @@
 		AD9B640928C3235100C78482 /* Codigo Code Test */ = {
 			isa = PBXGroup;
 			children = (
+				AD0F3A1928C3829F00CE8BF4 /* TableViewCell */,
+				AD0F3A0728C35EDE00CE8BF4 /* UI */,
+				AD0F39F628C35DDE00CE8BF4 /* Fonts */,
 				AD9B640A28C3235100C78482 /* AppDelegate.swift */,
 				AD9B640C28C3235100C78482 /* SceneDelegate.swift */,
 				AD9B640E28C3235100C78482 /* ViewController.swift */,
@@ -125,9 +231,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD0F3A0328C35DF700CE8BF4 /* Chivo-Italic.ttf in Resources */,
 				AD9B641728C3235500C78482 /* LaunchScreen.storyboard in Resources */,
+				AD0F3A0228C35DF700CE8BF4 /* Chivo-Light.ttf in Resources */,
+				AD0F3A1828C37FC700CE8BF4 /* CreateAccountViewController.xib in Resources */,
+				AD0F3A0128C35DF700CE8BF4 /* Chivo-BoldItalic.ttf in Resources */,
+				AD0F3A0628C35DF700CE8BF4 /* Chivo-BlackItalic.ttf in Resources */,
+				AD0F3A0E28C35FFD00CE8BF4 /* WelcomeViewController.xib in Resources */,
+				AD0F3A0028C35DF700CE8BF4 /* Chivo-Black.ttf in Resources */,
+				AD0F3A0528C35DF700CE8BF4 /* Chivo-LightItalic.ttf in Resources */,
+				AD0F39FF28C35DF700CE8BF4 /* Chivo-Bold.ttf in Resources */,
 				AD9B641428C3235500C78482 /* Assets.xcassets in Resources */,
 				AD9B641228C3235100C78482 /* Main.storyboard in Resources */,
+				AD0F3A0428C35DF700CE8BF4 /* Chivo-Regular.ttf in Resources */,
+				AD0F3A1D28C38BE300CE8BF4 /* CreateAccountTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,8 +255,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD0F3A1728C37FC700CE8BF4 /* CreateAccountViewController.swift in Sources */,
 				AD9B640F28C3235100C78482 /* ViewController.swift in Sources */,
+				AD0F3A0D28C35FFD00CE8BF4 /* WelcomeViewController.swift in Sources */,
 				AD9B640B28C3235100C78482 /* AppDelegate.swift in Sources */,
+				AD0F3A1C28C38BE300CE8BF4 /* CreateAccountTableViewCell.swift in Sources */,
 				AD9B640D28C3235100C78482 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

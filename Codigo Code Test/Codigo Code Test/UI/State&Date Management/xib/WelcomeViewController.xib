@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Chivo-Bold.ttf">
+            <string>Chivo-Bold</string>
+        </array>
+        <array key="Chivo-Regular.ttf">
+            <string>Chivo-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="WelcomeViewController" customModule="Codigo_Code_Test" customModuleProvider="target">
+            <connections>
+                <outlet property="ivClose" destination="r2J-I2-7Fd" id="qPk-bo-g9s"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img_welcome_background" translatesAutoresizingMaskIntoConstraints="NO" id="bR8-UO-RsD">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="862"/>
+                </imageView>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="multiply" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="r2J-I2-7Fd">
+                    <rect key="frame" x="12" y="47" width="30" height="23.5"/>
+                    <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="30" id="7Ou-mf-JPr"/>
+                        <constraint firstAttribute="height" constant="30" id="LAH-fw-ctr"/>
+                    </constraints>
+                </imageView>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img_cloud" translatesAutoresizingMaskIntoConstraints="NO" id="3Mz-GE-MnY">
+                    <rect key="frame" x="0.0" y="244" width="414" height="618"/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome to" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8eZ-KB-Ffr">
+                    <rect key="frame" x="24" y="424" width="366" height="48"/>
+                    <fontDescription key="fontDescription" name="Chivo-Bold" family="Chivo" pointSize="40"/>
+                    <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ready To Travel" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ftl-WO-Uxc">
+                    <rect key="frame" x="24" y="480" width="366" height="48"/>
+                    <fontDescription key="fontDescription" name="Chivo-Bold" family="Chivo" pointSize="40"/>
+                    <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sign up with Facebook for the most fulfillingtrip planning experience with us!" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ytE-gF-62c">
+                    <rect key="frame" x="24" y="540" width="366" height="43"/>
+                    <fontDescription key="fontDescription" name="Chivo-Regular" family="Chivo" pointSize="18"/>
+                    <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0J3-Rw-lep">
+                    <rect key="frame" x="24" y="607" width="366" height="52"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="52" id="9mb-iB-jel"/>
+                    </constraints>
+                    <state key="normal" title="Button"/>
+                    <buttonConfiguration key="configuration" style="filled" title="Log in with Facebook">
+                        <fontDescription key="titleFontDescription" name="Chivo-Bold" family="Chivo" pointSize="16"/>
+                    </buttonConfiguration>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8kj-by-ICF">
+                    <rect key="frame" x="24" y="683" width="366" height="52"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="52" id="gHS-nI-imG"/>
+                    </constraints>
+                    <state key="normal" title="Button"/>
+                    <buttonConfiguration key="configuration" style="filled" title="Log in with email address">
+                        <fontDescription key="titleFontDescription" name="Chivo-Bold" family="Chivo" pointSize="16"/>
+                    </buttonConfiguration>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nYh-xG-wMk">
+                    <rect key="frame" x="24" y="759" width="366" height="52"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="52" id="LZg-s0-Kak"/>
+                    </constraints>
+                    <state key="normal" title="Button"/>
+                    <buttonConfiguration key="configuration" style="filled" title="Create a new account">
+                        <fontDescription key="titleFontDescription" name="Chivo-Bold" family="Chivo" pointSize="16"/>
+                    </buttonConfiguration>
+                    <connections>
+                        <action selector="onTapCreateAccount:" destination="-1" eventType="touchUpInside" id="5q3-5i-f5V"/>
+                    </connections>
+                </button>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="8eZ-KB-Ffr" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="24" id="26j-N2-QSF"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="3Mz-GE-MnY" secondAttribute="bottom" id="4gP-Un-WDP"/>
+                <constraint firstItem="0J3-Rw-lep" firstAttribute="top" secondItem="ytE-gF-62c" secondAttribute="bottom" constant="24" id="5Xz-Vz-fB5"/>
+                <constraint firstItem="8kj-by-ICF" firstAttribute="top" secondItem="0J3-Rw-lep" secondAttribute="bottom" constant="24" id="DHf-it-mqy"/>
+                <constraint firstItem="bR8-UO-RsD" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="K6n-nd-cWe"/>
+                <constraint firstItem="ftl-WO-Uxc" firstAttribute="top" secondItem="8eZ-KB-Ffr" secondAttribute="bottom" constant="8" id="Klb-9a-7lq"/>
+                <constraint firstItem="bR8-UO-RsD" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="MpW-Lq-Tca"/>
+                <constraint firstItem="r2J-I2-7Fd" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="12" id="N1Z-fr-jQb"/>
+                <constraint firstItem="nYh-xG-wMk" firstAttribute="top" secondItem="8kj-by-ICF" secondAttribute="bottom" constant="24" id="Qey-d6-sbu"/>
+                <constraint firstItem="ytE-gF-62c" firstAttribute="top" secondItem="ftl-WO-Uxc" secondAttribute="bottom" constant="12" id="Ygq-CQ-58P"/>
+                <constraint firstItem="ytE-gF-62c" firstAttribute="leading" secondItem="8eZ-KB-Ffr" secondAttribute="leading" id="ZGf-sF-Cac"/>
+                <constraint firstItem="nYh-xG-wMk" firstAttribute="leading" secondItem="0J3-Rw-lep" secondAttribute="leading" id="bV6-0C-HpV"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="bR8-UO-RsD" secondAttribute="bottom" id="beL-2L-xzY"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="0J3-Rw-lep" secondAttribute="trailing" constant="24" id="cfe-pG-emh"/>
+                <constraint firstItem="ytE-gF-62c" firstAttribute="trailing" secondItem="8eZ-KB-Ffr" secondAttribute="trailing" id="dLe-cM-VDv"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="bR8-UO-RsD" secondAttribute="trailing" id="eIj-Jj-3zs"/>
+                <constraint firstItem="3Mz-GE-MnY" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="ekZ-01-5qt"/>
+                <constraint firstItem="8eZ-KB-Ffr" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="fnM-ab-Xjm"/>
+                <constraint firstItem="r2J-I2-7Fd" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="gY9-Sq-Foe"/>
+                <constraint firstItem="ftl-WO-Uxc" firstAttribute="leading" secondItem="8eZ-KB-Ffr" secondAttribute="leading" id="gv2-17-iGP"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="3Mz-GE-MnY" secondAttribute="trailing" id="jqt-EP-9TP"/>
+                <constraint firstItem="nYh-xG-wMk" firstAttribute="trailing" secondItem="0J3-Rw-lep" secondAttribute="trailing" id="lTE-Pm-hd8"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="8eZ-KB-Ffr" secondAttribute="trailing" constant="24" id="mLX-db-hUb"/>
+                <constraint firstItem="8kj-by-ICF" firstAttribute="leading" secondItem="0J3-Rw-lep" secondAttribute="leading" id="mS8-wP-n5E"/>
+                <constraint firstItem="0J3-Rw-lep" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="24" id="qTu-ob-3i2"/>
+                <constraint firstItem="8kj-by-ICF" firstAttribute="trailing" secondItem="0J3-Rw-lep" secondAttribute="trailing" id="qyT-Gc-GVA"/>
+                <constraint firstItem="ftl-WO-Uxc" firstAttribute="trailing" secondItem="8eZ-KB-Ffr" secondAttribute="trailing" id="tXu-gS-WmD"/>
+                <constraint firstItem="3Mz-GE-MnY" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="200" id="tmD-tA-2EY"/>
+            </constraints>
+            <point key="canvasLocation" x="481" y="98"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="img_cloud" width="414" height="501"/>
+        <image name="img_welcome_background" width="414" height="736"/>
+        <image name="multiply" catalog="system" width="128" height="111"/>
+    </resources>
+</document>
